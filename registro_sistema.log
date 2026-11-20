@@ -1,0 +1,83 @@
+2026-11-19 21:52:29 | INFO | Cliente 1001 registrado correctamente.
+2026-11-19 21:52:29 | ERROR | Prueba de cliente inválido: El correo electrónico no tiene un formato válido.
+2026-11-19 21:52:29 | INFO | Cliente 1003 registrado correctamente.
+2026-11-19 21:52:29 | INFO | Servicio S01 agregado correctamente.
+2026-11-19 21:52:29 | ERROR | Prueba de servicio inválido: El precio base debe ser mayor que cero.
+2026-11-19 21:52:29 | INFO | Servicio E01 agregado correctamente.
+2026-11-19 21:52:29 | INFO | Servicio A01 agregado correctamente.
+2026-11-19 21:52:29 | INFO | Reserva R001 creada en estado PENDIENTE.
+2026-11-19 21:52:29 | INFO | Reserva R001 agregada al sistema.
+2026-11-19 21:52:29 | ERROR | Prueba de reserva con duración inválida: La duración debe ser mayor que cero.
+2026-11-19 21:52:29 | INFO | Reserva R001 confirmada. Total: $119000.00.
+2026-11-19 21:52:29 | INFO | Reserva R001 procesada correctamente.
+2026-11-19 21:52:29 | INFO | Finalizó el intento de procesamiento de reserva R001.
+2026-11-19 21:52:29 | INFO | Reserva R003 creada en estado PENDIENTE.
+2026-11-19 21:52:29 | INFO | Reserva R003 agregada al sistema.
+2026-11-19 21:52:29 | INFO | Reserva R003 cancelada.
+2026-11-19 21:52:29 | ERROR | Prueba de cancelación repetida: La reserva R003 ya está cancelada.
+2026-11-19 21:56:00 | ERROR | Error controlado en el menú: could not convert string to float: '2 horas'
+2026-11-19 21:56:55 | ERROR | Error controlado en el menú: El correo electrónico no tiene un formato válido.
+2026-11-19 21:57:13 | ERROR | Error controlado en el menú: No se encontró la reserva 23.
+2026-11-19 21:58:17 | ERROR | Error controlado en el menú: No se encontró el cliente con identificación 26493.
+2026-11-19 21:58:29 | ERROR | Error controlado en el menú: No se encontró la reserva R005.
+2026-11-19 22:00:15 | ERROR | Error controlado en el menú: No se encontró la reserva R001.
+2026-11-19 22:00:22 | INFO | Cliente 1001 registrado correctamente.
+2026-11-19 22:00:22 | ERROR | Prueba de cliente inválido: El correo electrónico no tiene un formato válido.
+2026-11-19 22:00:22 | INFO | Cliente 1003 registrado correctamente.
+2026-11-19 22:00:22 | INFO | Servicio S01 agregado correctamente.
+2026-11-19 22:00:22 | ERROR | Prueba de servicio inválido: El precio base debe ser mayor que cero.
+2026-11-19 22:00:22 | INFO | Servicio E01 agregado correctamente.
+2026-11-19 22:00:22 | INFO | Servicio A01 agregado correctamente.
+2026-11-19 22:00:22 | INFO | Reserva R001 creada en estado PENDIENTE.
+2026-11-19 22:00:22 | INFO | Reserva R001 agregada al sistema.
+2026-11-19 22:00:22 | ERROR | Prueba de reserva con duración inválida: La duración debe ser mayor que cero.
+2026-11-19 22:00:22 | INFO | Reserva R001 confirmada. Total: $119000.00.
+2026-11-19 22:00:22 | INFO | Reserva R001 procesada correctamente.
+2026-11-19 22:00:22 | INFO | Finalizó el intento de procesamiento de reserva R001.
+2026-11-19 22:00:22 | INFO | Reserva R003 creada en estado PENDIENTE.
+2026-11-19 22:00:22 | INFO | Reserva R003 agregada al sistema.
+2026-11-19 22:00:22 | INFO | Reserva R003 cancelada.
+2026-11-19 22:00:22 | ERROR | Prueba de cancelación repetida: La reserva R003 ya está cancelada.
+2026-11-19 22:01:42 | INFO | Cliente 1001 registrado correctamente.
+2026-11-19 22:01:42 | ERROR | Prueba de cliente inválido: El correo electrónico no tiene un formato válido.
+2026-11-19 22:01:42 | INFO | Cliente 1003 registrado correctamente.
+2026-11-19 22:01:42 | INFO | Servicio S01 agregado correctamente.
+2026-11-19 22:01:42 | ERROR | Prueba de servicio inválido: El precio base debe ser mayor que cero.
+2026-11-19 22:01:42 | INFO | Servicio E01 agregado correctamente.
+2026-11-19 22:01:42 | INFO | Servicio A01 agregado correctamente.
+2026-11-19 22:01:42 | INFO | Reserva R001 creada en estado PENDIENTE.
+2026-11-19 22:01:42 | INFO | Reserva R001 agregada al sistema.
+2026-11-19 22:01:42 | ERROR | Prueba de reserva con duración inválida: La duración debe ser mayor que cero.
+2026-11-19 22:01:42 | INFO | Reserva R001 confirmada. Total: $119000.00.
+2026-11-19 22:01:42 | INFO | Reserva R001 procesada correctamente.
+2026-11-19 22:01:42 | INFO | Finalizó el intento de procesamiento de reserva R001.
+2026-11-19 22:01:42 | INFO | Reserva R003 creada en estado PENDIENTE.
+2026-11-19 22:01:42 | INFO | Reserva R003 agregada al sistema.
+2026-11-19 22:01:42 | INFO | Reserva R003 cancelada.
+2026-11-19 22:01:42 | ERROR | Prueba de cancelación repetida: La reserva R003 ya está cancelada.
+2026-11-19 22:07:04 | INFO | Cliente 123456 registrado correctamente.
+2026-11-19 22:10:56 | INFO | Servicio 065 agregado correctamente.
+2026-11-19 22:15:06 | ERROR | Error controlado en el menú: could not convert string to float: '4 días'
+2026-11-19 22:15:37 | INFO | Reserva R004 creada en estado PENDIENTE.
+2026-11-19 22:15:37 | INFO | Reserva R004 agregada al sistema.
+2026-11-19 22:15:52 | INFO | Reserva R004 confirmada. Total: $109250.00.
+2026-11-19 22:18:31 | INFO | Reserva R004 procesada correctamente.
+2026-11-19 22:18:31 | INFO | Finalizó el intento de procesamiento de reserva R004.
+2026-11-19 22:18:41 | ERROR | Error controlado en el menú: No se puede cancelar la reserva R004 porque ya fue procesada.
+2026-11-19 22:18:49 | INFO | Cliente 1001 registrado correctamente.
+2026-11-19 22:18:49 | ERROR | Prueba de cliente inválido: El correo electrónico no tiene un formato válido.
+2026-11-19 22:18:49 | INFO | Cliente 1003 registrado correctamente.
+2026-11-19 22:18:49 | INFO | Servicio S01 agregado correctamente.
+2026-11-19 22:18:49 | ERROR | Prueba de servicio inválido: El precio base debe ser mayor que cero.
+2026-11-19 22:18:49 | INFO | Servicio E01 agregado correctamente.
+2026-11-19 22:18:49 | INFO | Servicio A01 agregado correctamente.
+2026-11-19 22:18:49 | INFO | Reserva R001 creada en estado PENDIENTE.
+2026-11-19 22:18:49 | INFO | Reserva R001 agregada al sistema.
+2026-11-19 22:18:49 | ERROR | Prueba de reserva con duración inválida: La duración debe ser mayor que cero.
+2026-11-19 22:18:49 | INFO | Reserva R001 confirmada. Total: $119000.00.
+2026-11-19 22:18:49 | INFO | Reserva R001 procesada correctamente.
+2026-11-19 22:18:49 | INFO | Finalizó el intento de procesamiento de reserva R001.
+2026-11-19 22:18:49 | INFO | Reserva R003 creada en estado PENDIENTE.
+2026-11-19 22:18:49 | INFO | Reserva R003 agregada al sistema.
+2026-11-19 22:18:49 | INFO | Reserva R003 cancelada.
+2026-11-19 22:18:49 | ERROR | Prueba de cancelación repetida: La reserva R003 ya está cancelada.
