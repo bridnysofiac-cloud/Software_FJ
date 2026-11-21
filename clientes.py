@@ -10,8 +10,8 @@ class Cliente(Entidad):
 
     def __init__(self, identificacion, nombre, correo, telefono):
         super().__init__(identificacion, nombre)
-        self.__correo = correo
-        self.__telefono = telefono
+        self.__correo = str(correo).strip()
+        self.__telefono = str(telefono).strip()
         self.validar()
 
     @property
@@ -23,13 +23,14 @@ class Cliente(Entidad):
         return self.__telefono
 
     def validar(self):
-        if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", str(self.__correo).strip()):
+        if not re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", self.__correo):
             raise DatosInvalidosError("El correo electrónico no tiene un formato válido.")
-        if not str(self.__telefono).strip():
+        if not self.__telefono:
             raise DatosInvalidosError("El teléfono del cliente es obligatorio.")
-        if not str(self.__telefono).strip().replace("+", "").replace("-", "").replace(" ", "").isdigit():
+        if not re.fullmatch(r"[0-9+\-\s]+", self.__telefono):
             raise DatosInvalidosError("El teléfono solo debe contener números, espacios, + o -.")
-        if len(str(self.__telefono).strip()) < 7:
+        cantidad_digitos = sum(caracter.isdigit() for caracter in self.__telefono)
+        if cantidad_digitos < 7:
             raise DatosInvalidosError("El teléfono debe contener al menos 7 dígitos.")
         return True
 
